@@ -1,0 +1,85 @@
+<!-- Form task HTML -->
+<!-- No PHP this time -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Warranty</title>
+  </head>
+
+
+  <body>
+    <header>
+      <div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#NOTASCAM">100% not a scam</a></li>
+        <li style="float:right"><a class="active">About</a></li>
+      </ul>
+    </div></header>
+    
+    <div>
+      <h2>We've been trying to reach you about your cars extended warranty</h2>
+      <p>
+        Please fill out the form underneath, and we will contact you with an
+        offer you can't refuse!
+      </p>
+    </div>
+
+    <div>
+      <form class="inputform">
+        <label for="name"></label><br />
+        <input type="text" id="name" name="fname" placeholder="Your name" required autofocus>
+        <label for="address"></label>
+        <input type="text" id="address" name="address" placeholder="Your address" required />
+        <label for="email"></label>
+        <input type="text" id="email" name="email" placeholder="Your email" required/> </br>
+      
+      </form>
+      <div class="inputform">
+        <select id="cars" name="cars">
+        <option value="choose" disabled selected>Choose your car type</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">BMW</option>
+        <option value="ferrari">Ferrari</option>
+        <option value="fiat">Fiat</option>
+        <option value="ford">Ford</option>
+        <option value="lada">Lada</option>
+        <option value="Nissan">Nissan</option>
+        <option value="Mitsubishi">Mitsubushi</option>
+        <option value="volvo">Volvo</option>
+        <div>
+          <label class="form" for="model"></label><br />
+          <input type="text" id="model" name="carmodel" placeholder="Car model and year" required><br />
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <button>Submit </button>
+    </div>
+    <div>
+      <dl>
+        <dd style="font-size:large">Reasons to get extended warranty</dd>
+        <dd>- We earn money</dd>
+        <dd>- You get a false sense of security</dd>
+        <dd>- Did I mention we make money?</dd>
+        <dd>- My children need college tuition</dd> 
+      </dl>
+    </div>
+    <div>
+      <footer style="margin-top:-140px; align-items: center;"><a style="color:white" href="https://www.paypal.com/uk/fundraiser/charity/10727" rel="noopener noreferrer" target="_blank">
+      Please give us your money</a>
+    </footer>
+    </div>
+
+  </body>
+</html>
